@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.arrow {
+  border-radius: 4px;
+  width: 35px;
+  height: 35px;
+  background-color: #150B40;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  line-height: 35px;
+  text-align: center;
+}
+
+.arrow i {
+  color: #1e1e1e;
+}
+
+#navBar ul li {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+#navBar ul li a {
+  color: #150B40;
+  padding: 15px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+#navBar .navbar-toggler {
+  border: 1px solid #150B40;
+}
+
+#navBar .navbar-toggler .navbar-toggler-icon {
+  background-color: #150B40;
+}
+
+#hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 88vh;
+}
+
+#hero-section .hero-content {
+  text-align: center;
+}
+
+#hero-section .hero-content h1 {
+  margin-top: 140px;
+  font-size: 38px;
+  line-height: 1.1;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#hero-section .hero-content a {
+  margin: 0 auto;
+  width: 18%;
+  border-radius: 0px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 22px 30px;
+  color: #fff;
+  background-color: #975675;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 997px) {
+  #hero-section .hero-content h1 {
+    margin-top: 200px;
+  }
+  #hero-section .hero-content a {
+    width: 80%;
+  }
+}
+
+#subScribe {
+  padding: 50px;
+  margin: 80px 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+#subScribe .wrapper {
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #64aaf0;
+  width: 50%;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+#subScribe .wrapper .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #150B40;
+  height: 140px;
+  position: relative;
+}
+
+#subScribe .wrapper .top::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: #150B40;
+  bottom: -10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#subScribe .wrapper .top i {
+  font-size: 70px;
+  color: #fff;
+}
+
+#subScribe .wrapper .bottom {
+  padding: 30px;
+  word-spacing: -1px;
+}
+
+#subScribe .wrapper .bottom .info {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#subScribe .wrapper .bottom .input-box {
+  height: 45px;
+  margin: 15px 0 10px 0;
+}
+
+#subScribe .wrapper .bottom .input-box input {
+  height: 100%;
+  width: 100%;
+  padding-left: 14px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 25px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#subScribe .wrapper .bottom input[type="text"] {
+  border: 2px solid #fff;
+}
+
+#subScribe .wrapper .bottom input[type="text"]:focus,
+#subScribe .wrapper .bottom input[type="text"]:valid {
+  border-color: #150B40;
+}
+
+#subScribe .wrapper .bottom input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  background: #150B40;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#subScribe .wrapper .bottom input[type="submit"]:hover {
+  background: #150B40;
+}
+
+@media screen and (max-width: 480px) {
+  #subScribe .wrapper {
+    width: 100%;
+  }
+}
+
+footer .widget-title {
+  position: relative;
+  left: 10px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #150B40;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  margin-top: 25px;
+}
+
+footer .oceanwp-info-wrap {
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+footer .oceanwp-info-wrap .oceanwp-contact-title {
+  color: #150B40 !important;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+footer .oceanwp-info-wrap .oceanwp-contact-text {
+  width: 100%;
+  line-height: 18px;
+  display: block;
+  color: #150B40;
+}
+
+footer .oceanwp-info-wrap a {
+  width: 100%;
+  color: #150B40;
+  cursor: pointer;
+}
+
+footer #footer-bottom #footer-bottom-inner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer #footer-bottom #footer-bottom-inner #copyright {
+  color: #150B40;
+}
+/*# sourceMappingURL=style.css.map */

@@ -203,6 +203,115 @@ body {
   }
 }
 
+#introduction {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg3.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg3.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+#introduction h1 {
+  margin-top: 120px;
+  font-size: 38px;
+  line-height: 1.1;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #150B40;
+  text-transform: uppercase;
+}
+
+#introduction p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-align: start;
+  font-weight: 600;
+}
+
+#introduction ol li {
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-align: start;
+  font-weight: 600;
+}
+
+#vNm {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg3.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg3.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+#vNm h1 {
+  margin-top: 120px;
+  font-size: 38px;
+  line-height: 1.1;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #150B40;
+  text-transform: uppercase;
+}
+
+#vNm p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-align: start;
+  font-weight: 600;
+}
+
+#vNm h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #150B40;
+  text-transform: uppercase;
+}
+
+#vNm i {
+  font-size: 100px;
+  color: #975675;
+}
+
+#nRio {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg1.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+#nRio h1 {
+  margin-top: 120px;
+  font-size: 38px;
+  line-height: 1.1;
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #150B40;
+  text-transform: uppercase;
+}
+
+#nRio p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-align: start;
+  font-weight: 600;
+}
+
+#nRio ol li {
+  font-size: 1rem;
+  line-height: 30px;
+  color: white;
+  text-align: start;
+  font-weight: 600;
+}
+
 footer .widget-title {
   position: relative;
   left: 10px;

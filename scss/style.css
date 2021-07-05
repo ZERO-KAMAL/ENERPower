@@ -32,6 +32,10 @@ body {
   color: #1e1e1e;
 }
 
+#navBar {
+  padding: 15px;
+}
+
 #navBar ul li {
   font-size: 16px;
   padding-left: 15px;
@@ -204,6 +208,7 @@ body {
 }
 
 #introduction {
+  margin-bottom: 80px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg3.jpg) repeat fixed 100%;
   background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg3.jpg) repeat fixed 100%;
   background-size: cover;
@@ -238,6 +243,7 @@ body {
 }
 
 #vNm {
+  margin-bottom: 80px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg3.jpg) repeat fixed 100%;
   background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg3.jpg) repeat fixed 100%;
   background-size: cover;
@@ -279,6 +285,7 @@ body {
 }
 
 #nRio {
+  margin-bottom: 80px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.5)), to(rgba(4, 9, 30, 0.5))), url(../images/hero-bg1.jpg) repeat fixed 100%;
   background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg1.jpg) repeat fixed 100%;
   background-size: cover;

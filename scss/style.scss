@@ -13,12 +13,13 @@ body {
   overflow-x: hidden;
   background-color: white;
   transition: all ease 0.3s;
+  scroll-behavior: smooth;
 }
 .arrow {
   border-radius: 4px;
   width: 35px;
   height: 35px;
-  background-color: $Fc;
+  background-color: $CR;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -26,8 +27,20 @@ body {
   line-height: 35px;
   text-align: center;
   i {
-    color: #1e1e1e;
+    color: $Fc;
   }
+}
+.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100px;
+  background: white;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
+  padding: 20px;
+  
 }
 #navBar {
   padding: 15px;

@@ -36,6 +36,17 @@ body {
   padding: 15px;
 }
 
+#navBar img {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+#navBar img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* Equal to scaleX(2) scaleY(0.5) */
+}
+
 #navBar ul li {
   font-size: 16px;
   padding-left: 15px;
@@ -46,6 +57,17 @@ body {
   padding: 15px;
   font-weight: 600;
   line-height: 1.15;
+}
+
+#navBar ul .nav-link {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+#navBar ul .nav-link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* Equal to scaleX(2) scaleY(0.5) */
 }
 
 #navBar .navbar-toggler {
@@ -317,6 +339,17 @@ body {
   color: white;
   text-align: start;
   font-weight: 600;
+}
+
+footer img {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+footer img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* Equal to scaleX(2) scaleY(0.5) */
 }
 
 footer .widget-title {

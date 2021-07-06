@@ -31,15 +31,28 @@ body {
 }
 #navBar {
   padding: 15px;
+  img {
+    transition: all ease 0.3s;
+    &:hover {
+      transform: scale(1.2); /* Equal to scaleX(2) scaleY(0.5) */
+    }
+  }
   ul {
     li {
       font-size: 16px;
-      padding-left: 15px;
+      padding-left: 15px;    
       a {
         color: $Fc;
         padding: 15px;
         font-weight: 600;
         line-height: 1.15;
+       
+      }
+    }
+    .nav-link{
+      transition: all ease 0.3s;
+      &:hover {
+        transform: scale(1.2); /* Equal to scaleX(2) scaleY(0.5) */
       }
     }
   }
@@ -277,6 +290,12 @@ body {
   }
 }
 footer {
+  img {
+    transition: all ease 0.3s;
+    &:hover {
+      transform: scale(1.2); /* Equal to scaleX(2) scaleY(0.5) */
+    }
+  }
   .widget-title {
     position: relative;
     left: 10px;

@@ -44,6 +44,7 @@ body {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   padding: 20px;
+  overflow: hidden;
 }
 
 .navbar-nav {
@@ -255,6 +256,10 @@ body {
   height: 100%;
 }
 
+#introduction .row {
+  padding: 15px;
+}
+
 #introduction h1 {
   margin-top: 120px;
   font-size: 38px;
@@ -288,6 +293,10 @@ body {
   background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg3.jpg) repeat fixed 100%;
   background-size: cover;
   height: 100%;
+}
+
+#vNm .row {
+  padding: 15px;
 }
 
 #vNm h1 {
@@ -330,6 +339,10 @@ body {
   background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-bg1.jpg) repeat fixed 100%;
   background-size: cover;
   height: 100%;
+}
+
+#nRio .row {
+  padding: 15px;
 }
 
 #nRio h1 {

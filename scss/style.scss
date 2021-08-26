@@ -364,6 +364,13 @@ footer {
       margin-bottom: 30px;
       #copyright {
         color: $Fc;
+        a{
+          color: $Fc;
+          text-decoration: none;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

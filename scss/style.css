@@ -437,4 +437,13 @@ footer #footer-bottom #footer-bottom-inner {
 footer #footer-bottom #footer-bottom-inner #copyright {
   color: #150B40;
 }
+
+footer #footer-bottom #footer-bottom-inner #copyright a {
+  color: #150B40;
+  text-decoration: none;
+}
+
+footer #footer-bottom #footer-bottom-inner #copyright a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */

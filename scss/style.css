@@ -84,8 +84,16 @@ body {
   line-height: 1.15;
 }
 
+#navBar ul li .dropdown-menu {
+  margin-left: 30px;
+}
+
 #navBar ul li .dropdown-menu li {
   padding: 0% !important;
+}
+
+#navBar ul li .dropdown-menu li:nth-child(1) {
+  border-bottom: 1px solid #975675;
 }
 
 #navBar ul .nav-link {

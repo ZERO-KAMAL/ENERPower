@@ -64,6 +64,8 @@ body {
     li {
       font-size: 16px;
       padding-left: 15px;
+
+      
       a {
         color: $Fc;
         padding: 15px;
@@ -71,8 +73,12 @@ body {
         line-height: 1.15;
       }
       .dropdown-menu{
+        margin-left: 30px;
         li{
           padding: 0% !important;
+          &:nth-child(1){
+            border-bottom: 1px solid $CR;
+          }
         }
       }
     }
